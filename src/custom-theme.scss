@@ -1,0 +1,25 @@
+@import '../node_modules/@angular/material/theming';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@include mat-core();
+
+
+$pingpong-primary: mat-palette($mat-indigo);
+$pingpong-accent: mat-palette($mat-pink);
+
+
+$pingpong-warn: mat-palette($mat-red);
+
+$pingpong-typography: mat-typography-config($font-family: "Poppins");
+
+
+$pingpong-theme: mat-light-theme((
+  color: (
+    primary: $pingpong-primary,
+    accent: $pingpong-accent,
+    warn: $pingpong-warn,
+  ),
+  typography: $pingpong-typography,
+));
+
+@include angular-material-theme($pingpong-theme);
+

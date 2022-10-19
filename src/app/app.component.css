@@ -1,0 +1,27 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px
+}
+
+.spacer {
+    flex: auto;
+}
+
+mat-sidenav-container {
+    height: 100vh;
+}
+
+mat-sidenav, mat-sidenav-container {
+    padding: 5rem;
+}
+
+mat-sidenav {
+    background-color: primary;
+    width: 20%;
+}
+
+button {
+    background-color: aliceblue;
+}
