@@ -1,0 +1,5 @@
+<div class="match">
+    <h3>{{match.date}} <fa-icon [ngStyle]="{'color': 'red'}" [icon]="faTimes" (click)="onDelete(match)"></fa-icon></h3>
+    <p>{{match.home_player}} v. {{match.away_player}}</p>
+    <p>Winner: <b>{{match.winner}}</b></p>
+</div>
