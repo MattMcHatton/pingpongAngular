@@ -1,0 +1,23 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    color: #ffffff;
+    margin: 0px;
+    padding:0px;
+    min-height: 50px;
+}
+
+.button {
+    font-style: normal;
+    box-shadow: none;
+    margin: 10px;
+    color: #ffffff;
+    padding:0px;
+    width: 36px;
+    min-width: 0px;
+}
+
+.spacer {
+    flex: 1 1 auto
+}
